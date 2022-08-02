@@ -179,9 +179,7 @@ const Board = () => {
                     <Typography sx={styles.title}>
                         Recompensas
                     </Typography>
-                    {/* <Typography>
-                        <Search />
-                    </Typography> */}
+             
                 </Stack>
             </Grid>
             <Grid item lg={12}>
@@ -189,7 +187,6 @@ const Board = () => {
                     <ButtonGroup>
                         <Button onClick={() => updateFiltersAsParams("rating")}><Star /></Button>
                         <Button onClick={() => updateFiltersAsParams("price")}>{attachMoneyButtonIconCount(countOfPriceIcons)}</Button>
-                        {/* <Button><AccessTime /></Button> */}
                         <Button><Menu /></Button>
                     </ButtonGroup>
                 </Stack>
